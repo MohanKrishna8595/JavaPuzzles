@@ -1,5 +1,5 @@
 
-public class NumberProgram2 
+public class SumofMultiple 
 {
 	public void ismultiple(int n)
 	{
