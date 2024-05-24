@@ -2,12 +2,11 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class Program4Test {
+public class SumofSquareTest {
 
 	@Test
 	public void test() {
-		NumberProgram4 np = new NumberProgram4();
+		SumofSquare np = new SumofSquare();
 		np.isSumofSquare(10);
 	}
-
 }

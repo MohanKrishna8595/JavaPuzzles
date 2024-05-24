@@ -1,5 +1,5 @@
 
-public class NumberProgram3 {
+public class SumofEvenFibonacci {
 	public void isEvenfib(int n) 
 	{
 		int f1=1,f2=2,f3;
@@ -12,9 +12,8 @@ public class NumberProgram3 {
 				sum=sum+f3;
 			}
 			f1=f2;
-			f2=f3;
+ 			f2=f3;
 		}
 		System.out.println(sum);
 	}
-
 }

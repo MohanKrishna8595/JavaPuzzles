@@ -1,5 +1,5 @@
 
-public class NumberProgram4 {
+public class SumofSquare {
 public void isSumofSquare(int n)
 {
     int Sumofsq=0;
