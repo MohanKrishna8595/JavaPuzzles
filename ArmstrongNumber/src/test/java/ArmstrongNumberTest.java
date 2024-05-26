@@ -2,11 +2,11 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class Program13Test {
+public class ArmstrongNumberTest {
 
 	@Test
 	public void test() {
-		NumberProgram13 np = new NumberProgram13();
+		ArmstrongNumber np = new ArmstrongNumber();
 				np.isArmstrongNumber(153);
 	}
 

@@ -1,5 +1,5 @@
 
-public class NumberProgram13 
+public class ArmstrongNumber 
 {
 	public static void isArmstrongNumber(int n)
 	{
