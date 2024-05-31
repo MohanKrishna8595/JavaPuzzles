@@ -6,8 +6,9 @@ public class ArmstrongNumberTest {
 
 	@Test
 	public void test() {
-		ArmstrongNumber np = new ArmstrongNumber();
-				np.isArmstrongNumber(153);
+		assertEquals("Armstrong Number",ArmstrongNumber.isArmstrongNumber(153));
+		assertEquals("Armstrong Number",ArmstrongNumber.isArmstrongNumber(370));
+		assertEquals("Armstrong Number",ArmstrongNumber.isArmstrongNumber(371));
 	}
 
 }

@@ -1,7 +1,7 @@
 
 public class ArmstrongNumber 
 {
-	public static void isArmstrongNumber(int n)
+	public static String isArmstrongNumber(int n)
 	{
 		String str = n+"";
 		int exp = str.length();
@@ -17,11 +17,11 @@ public class ArmstrongNumber
 
 		if(temp==sum)
 		{
-			System.out.println("The number "+temp+" is a Armstrong Number");
+			return "Armstrong Number";
 		}
 		else
 		{
-			System.out.println("The number "+temp+" is a not Armstrong Number");
+			return "Not Armstrong Number";
 		}
 
 
